@@ -3,30 +3,265 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KRAATOX Automation</title>
+
+  <title>KRAATOX | Official Website</title>
+  <meta name="description" content="Site officiel de KRAATOX, projet musical hard techno, industrial et hardcore. Découvrez le projet, sa musique et KRAATOX Automation.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #080808;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #050505, #1a001f);
+      padding: 80px 20px;
+      text-align: center;
+      border-bottom: 2px solid #8b00ff;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 5px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #cccccc;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background: #111;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #b94cff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      padding: 55px 0;
+      border-bottom: 1px solid #292929;
+    }
+
+    h2 {
+      color: #b94cff;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    p {
+      margin-bottom: 15px;
+      color: #dddddd;
+    }
+
+    .card {
+      background: #121212;
+      padding: 25px;
+      border-radius: 10px;
+      margin-top: 20px;
+      border: 1px solid #292929;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      background: #050505;
+      color: #999;
+    }
+
+    footer a {
+      color: #b94cff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 8px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>KRAATOX Automation</h1>
+
+<header>
+  <h1>KRAATOX</h1>
+  <p>Hard Techno • Industrial • Hardcore</p>
+  <p>Official website & KRAATOX Automation information</p>
+</header>
+
+<nav>
+  <a href="#about">KRAATOX</a>
+  <a href="#music">Music</a>
+  <a href="#automation">Automation</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+  <section id="about">
+    <h2>About KRAATOX</h2>
+
+    <p>
+      KRAATOX est un projet musical indépendant orienté vers la hard techno,
+      l'industrial et le hardcore.
+    </p>
+
+    <p>
+      Le projet développe un univers sombre, énergique et futuriste inspiré
+      de la culture rave, des sonorités industrielles et des musiques
+      électroniques à haute intensité.
+    </p>
+
+    <p>
+      KRAATOX publie régulièrement de nouveaux contenus musicaux et visuels
+      sur les plateformes musicales et les réseaux sociaux.
+    </p>
+  </section>
+
+
+  <section id="music">
+    <h2>Music & Content</h2>
+
+    <div class="card">
+      <p>
+        KRAATOX produit et publie des morceaux de musique électronique ainsi
+        que des vidéos promotionnelles liées à ses sorties musicales.
+      </p>
+
+      <p>
+        Les contenus publiés peuvent inclure des extraits musicaux,
+        des créations visuelles, des vidéos artistiques et des présentations
+        de nouvelles sorties.
+      </p>
+
+      <p>
+        Le contenu publié via KRAATOX Automation est destiné exclusivement
+        à promouvoir et développer le projet musical KRAATOX.
+      </p>
+    </div>
+  </section>
+
+
+  <section id="automation">
+    <h2>KRAATOX Automation</h2>
+
+    <p>
+      KRAATOX Automation est un outil interne développé pour faciliter
+      la gestion et la publication des contenus officiels du projet KRAATOX
+      sur les réseaux sociaux.
+    </p>
+
+    <div class="card">
+      <h3>How it works</h3>
+
+      <p>
+        L'application permet de connecter un compte TikTok autorisé grâce
+        à TikTok Login Kit.
+      </p>
+
+      <p>
+        Après autorisation du propriétaire du compte, KRAATOX Automation
+        utilise TikTok Content Posting API afin d'envoyer et publier les
+        vidéos officielles du projet.
+      </p>
+
+      <p>
+        L'application ne publie jamais sur un compte TikTok sans
+        l'autorisation préalable de son propriétaire.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Purpose of the application</h3>
+
+      <p>
+        L'objectif de l'application est d'automatiser une partie du workflow
+        de publication de KRAATOX afin de gérer plus efficacement la diffusion
+        régulière de contenus musicaux et visuels.
+      </p>
+
+      <p>
+        KRAATOX Automation est actuellement utilisée pour les besoins
+        du projet musical KRAATOX.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Privacy & Security</h3>
+
+      <p>
+        Seules les données nécessaires au fonctionnement de l'intégration
+        TikTok sont utilisées.
+      </p>
+
+      <p>
+        Les accès TikTok sont utilisés uniquement dans le cadre des
+        fonctionnalités autorisées par l'utilisateur et conformément
+        aux conditions de TikTok.
+      </p>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <p>
+      Pour toute question concernant KRAATOX, ses contenus ou
+      KRAATOX Automation, vous pouvez contacter le projet via
+      ses comptes officiels sur les réseaux sociaux.
+    </p>
+
+    <p>
+      KRAATOX est un projet musical indépendant.
+    </p>
+  </section>
+
+</main>
+
+
+<footer>
+  <p>© 2026 KRAATOX. All rights reserved.</p>
 
   <p>
-    KRAATOX Automation est un service web permettant de connecter un compte TikTok
-    autorisé afin de gérer et publier automatiquement des contenus vidéo liés au
-    projet musical KRAATOX.
+    <a href="privacy.html">Privacy Policy</a>
+    |
+    <a href="terms.html">Terms of Service</a>
   </p>
+</footer>
 
-  <p>
-    Le service utilise TikTok Login Kit pour l'authentification et TikTok Content
-    Posting API pour l'envoi et la publication de vidéos sur les comptes autorisés.
-  </p>
-
-  <h2>Informations légales</h2>
-
-  <p>
-    <a href="terms.html">Conditions d'utilisation</a>
-  </p>
-
-  <p>
-    <a href="privacy.html">Politique de confidentialité</a>
-  </p>
 </body>
 </html>
