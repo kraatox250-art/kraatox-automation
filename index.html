@@ -14,6 +14,10 @@
       padding: 0;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: Arial, Helvetica, sans-serif;
       background: #080808;
@@ -37,18 +41,20 @@
     header p {
       color: #cccccc;
       font-size: 1.1rem;
+      margin-bottom: 8px;
     }
 
     nav {
-      background: #111;
+      background: #111111;
       padding: 15px;
       text-align: center;
       position: sticky;
       top: 0;
+      z-index: 100;
     }
 
     nav a {
-      color: white;
+      color: #ffffff;
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
@@ -75,6 +81,11 @@
       font-size: 2rem;
     }
 
+    h3 {
+      color: #ffffff;
+      margin-bottom: 15px;
+    }
+
     p {
       margin-bottom: 15px;
       color: #dddddd;
@@ -88,11 +99,15 @@
       border: 1px solid #292929;
     }
 
+    a {
+      color: #b94cff;
+    }
+
     footer {
       text-align: center;
       padding: 35px 20px;
       background: #050505;
-      color: #999;
+      color: #999999;
     }
 
     footer a {
@@ -102,6 +117,10 @@
     }
 
     @media (max-width: 600px) {
+      header {
+        padding: 60px 20px;
+      }
+
       header h1 {
         font-size: 2.2rem;
       }
@@ -119,7 +138,7 @@
 <header>
   <h1>KRAATOX</h1>
   <p>Hard Techno • Industrial • Hardcore</p>
-  <p>Official website & KRAATOX Automation information</p>
+  <p>Official Website & KRAATOX Automation</p>
 </header>
 
 <nav>
@@ -140,8 +159,8 @@
     </p>
 
     <p>
-      Le projet développe un univers sombre, énergique et futuriste inspiré
-      de la culture rave, des sonorités industrielles et des musiques
+      Le projet développe un univers sombre, énergique et futuriste,
+      inspiré de la culture rave, des sonorités industrielles et des musiques
       électroniques à haute intensité.
     </p>
 
@@ -150,7 +169,6 @@
       sur les plateformes musicales et les réseaux sociaux.
     </p>
   </section>
-
 
   <section id="music">
     <h2>Music & Content</h2>
@@ -162,18 +180,17 @@
       </p>
 
       <p>
-        Les contenus publiés peuvent inclure des extraits musicaux,
+        Les contenus peuvent inclure des extraits musicaux,
         des créations visuelles, des vidéos artistiques et des présentations
         de nouvelles sorties.
       </p>
 
       <p>
-        Le contenu publié via KRAATOX Automation est destiné exclusivement
+        Les contenus publiés via KRAATOX Automation sont destinés
         à promouvoir et développer le projet musical KRAATOX.
       </p>
     </div>
   </section>
-
 
   <section id="automation">
     <h2>KRAATOX Automation</h2>
@@ -194,8 +211,8 @@
 
       <p>
         Après autorisation du propriétaire du compte, KRAATOX Automation
-        utilise TikTok Content Posting API afin d'envoyer et publier les
-        vidéos officielles du projet.
+        utilise TikTok Content Posting API afin d'envoyer et publier
+        les vidéos officielles du projet.
       </p>
 
       <p>
@@ -209,8 +226,8 @@
 
       <p>
         L'objectif de l'application est d'automatiser une partie du workflow
-        de publication de KRAATOX afin de gérer plus efficacement la diffusion
-        régulière de contenus musicaux et visuels.
+        de publication de KRAATOX afin de gérer plus efficacement
+        la diffusion régulière de contenus musicaux et visuels.
       </p>
 
       <p>
@@ -228,21 +245,30 @@
       </p>
 
       <p>
-        Les accès TikTok sont utilisés uniquement dans le cadre des
-        fonctionnalités autorisées par l'utilisateur et conformément
+        Les accès TikTok sont utilisés uniquement dans le cadre
+        des fonctionnalités autorisées par l'utilisateur et conformément
         aux conditions de TikTok.
+      </p>
+
+      <p>
+        Pour plus d'informations, consultez notre
+        <a href="privacy.html">Politique de confidentialité</a>.
       </p>
     </div>
   </section>
-
 
   <section id="contact">
     <h2>Contact</h2>
 
     <p>
-      Pour toute question concernant KRAATOX, ses contenus ou
-      KRAATOX Automation, vous pouvez contacter le projet via
-      ses comptes officiels sur les réseaux sociaux.
+      Pour toute question concernant KRAATOX, KRAATOX Automation,
+      la confidentialité ou une demande de suppression de données,
+      vous pouvez nous contacter à l'adresse suivante :
+    </p>
+
+    <p>
+      <strong>Email :</strong>
+      <a href="mailto:kraatox250@gmail.com">kraatox250@gmail.com</a>
     </p>
 
     <p>
@@ -251,7 +277,6 @@
   </section>
 
 </main>
-
 
 <footer>
   <p>© 2026 KRAATOX. All rights reserved.</p>
